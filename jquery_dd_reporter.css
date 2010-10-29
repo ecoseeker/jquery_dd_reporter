@@ -1,0 +1,46 @@
+#dim_checker {
+  border: 1px solid #000;
+  background-color: #ccc;
+  padding: 10px 0 5px 10px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#dim_checker .dim_form_item {
+  margin: 0 10px 5px 0;
+  text-align: right;
+}
+
+#dim_checker a,
+#dim_checker label {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#dim_checker label {
+  font-size: 0.7em;
+}
+
+#dim_checker a {
+  padding: 0 10px 5px 0;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #ff0000;
+  font-size: 0.8em;
+  display: block;
+  text-align: right;
+}
+#dim_checker a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#dim_checker input {
+  width: 2.5em;
+  border: 0;
+  background-color: #ccc;
+  font-family: "Courier", sans-serif;
+  font-weight: bolder;
+  font-size: 0.8em;
+  text-align: right;
+}
